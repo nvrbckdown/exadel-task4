@@ -9,7 +9,6 @@ jobs:
     docker:
         runs-on: ubuntu-latest
         steps:
-        - name: Check Out Repo
         - uses: actions/checkout@v2
         - name: Docker login
           run: docker login --username ${{ secrets.DOCKER_HUB_USERNAME }} --password ${{ DOCKER_HUB_PASSWORD }}
