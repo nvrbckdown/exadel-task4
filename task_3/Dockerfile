@@ -1,0 +1,6 @@
+FROM nginx
+
+ENV DEVOPS="ABDULKODIR YUSUPOV"
+
+COPY . .
+RUN bash script.sh
