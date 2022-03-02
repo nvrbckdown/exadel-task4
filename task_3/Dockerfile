@@ -1,6 +1,6 @@
 FROM nginx
 
-ENV DEVOPS="ABDULKODIR YUSUPOV"
+ENV DEVOPS="Exadel Internship"
 
 COPY . .
 RUN bash script.sh
